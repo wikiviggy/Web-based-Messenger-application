@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS `shoutbox` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `username` varchar(15) DEFAULT NULL,
   `message` text NOT NULL,
-  `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date` datetime NOT NULL ,
   `ip` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`id`)
 );
